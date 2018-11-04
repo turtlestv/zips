@@ -28,9 +28,9 @@
             <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
         </dir>
         <dir>
-            <info compressed="false">https://turtlestv.net/ttv/addons.xml</info>
-        <checksum>https://turtlestv.net/ttv/addons.xml.md5</checksum>
-        <datadir zip="true">https://turtlestv.net/ttv/</datadir>
+            <info compressed="false">https://turtlestv.net/zips/addons.xml</info>
+        <checksum>https://turtlestv.net/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://turtlestv.net/zips/</datadir>
     </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
