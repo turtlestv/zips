@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.turtlestv" name="[COLORgreen]Turtles TV Wizard[/COLOR]" version="4.1.11" provider-name="Turtle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TurtlesTV</summary>
+    <description lang="en">Blah...Blah...Blah...</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+	<addon id="repository.ttv" name="[COLORgreen]Turtles TV Repo[/COLOR]" version="0.0.3" provider-name="Turtle">
+	<extension point="xbmc.addon.repository" name="[COLORgreen]Turtles TV Repo[/COLOR]">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/turtlestv/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/turtlestv/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/turtlestv/zips/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">TurtlesTV is a educational add-on. We do not host any of the contents streamed.</summary>
+		<description lang="en">TurtlesTV is a educational add-on. We do not host any of the contents streamed.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+    <addon id="repository.turtlestv" name="TurtlesTV Repo" version="4.1.2" provider-name="Turtle">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="TurtlesTV Repo">
+              <info compressed="false">https://turtlestv.net/ttv/addons.xml</info>
+        <checksum>https://turtlestv.net/ttv/addons.xml.md5</checksum>
+        <datadir zip="true">https://turtlestv.net/ttv/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>TurtlesTV is a educational add-on. We do not host any of the contents streamed.</summary>
+            <description>.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
